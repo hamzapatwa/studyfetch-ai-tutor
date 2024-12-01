@@ -1,8 +1,8 @@
 // components/FlashcardSetComponent.tsx
 'use client'
 import React, { useState } from 'react'
-import { Flashcard } from '@/src/components/Flashcard'
-import { Button } from '@/src/components/ui/button'
+import { Flashcard } from 'src/components/Flashcard'
+import { Button } from 'src/components/ui/button'
 
 export default function FlashcardSetComponent({ flashcards }: { flashcards: any[] }) {
   if (flashcards.length === 0) {
